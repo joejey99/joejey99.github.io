@@ -1,9 +1,43 @@
 * {
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
-.row {
-    background-color: aqua;
+
+aside {
+    background-color: rgba(73, 73, 255, 0.971);
 }
+
+aside h5 {
+    font-weight: bolder;
+}
+
+main {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.453), rgba(255, 255, 255, 0.587)), url("../img/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+main h1 {
+    background-color: rgba(253, 253, 253, 0.214);
+    display: flex;
+    justify-content: center;
+}
+
+main article {
+    background-color: rgba(253, 253, 253, 0.64);
+}
+
+.highlight {
+    color: #0056b3;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .highlight:hover {
+    color: #ffffff;
+    background-color: #0056b3;
+    cursor: pointer;
+  }

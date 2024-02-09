@@ -1,59 +1,178 @@
 <!DOCTYPE html>
-<!-- Estructura base del documento -->
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV José Donoso</title>
-    <meta name="Author" lang="es" content="Jose Donoso">
-    <meta name="description" content="Curriculum Vitae Jose Donoso">
+    <title>CV Jose Donoso</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <!-- Titulos y parrafos -->
-    <h1>Curriculum Vitae</h1>
-    <!-- Enlace redes sociales incluida en imagen -->
-    <a href="https://www.instagram.com/pepe93_/?utm_source=qr&igsh=djVzYnpwcTUyYmhh" target="_blank" rel="noopener noreferrer">
-    <!-- Imagen -->
-    <img src="./assets/Foto_CV.jpg" alt="Foto Curriculum Vitae Jose Donoso" height="350px" width="250px" >
-    <br>Para redes sociales haz clic en la Imagen</a>
-        <h2>José Donoso</h2>
-            <h3>Resumen</h3>
-                <p>Contador Profesional con seis años de experiencia en contabilidad y tributaria, destacado por una comprensión exhaustiva y habilidades avanzadas en estas áreas. Poseo un enfoque colaborativo efectivo, con probadas habilidades en liderazgo, creatividad y análisis, orientadas a la búsqueda de soluciones y al fortalecimiento del trabajo en equipo. Mis valores de respeto, perseverancia, sinceridad y disciplina me impulsan a buscar constantemente el crecimiento y éxito tanto en entornos profesionales como en el desarrollo personal. Aspiro a unirme a una organización donde pueda contribuir significativamente, aplicando mi experiencia y competencias interpersonales en un ambiente donde la excelencia es la norma</p>
-            <h3>Datos Personales</h3>
-            <!-- Listas -->
-                <p><ol>
-                    <li>Nombre Completo: José Ignacio Donoso Puebla</li>
-                    <li>Lugar de Nacimiento: Santiago de Chile</li>
-                    <li>Fecha de Nacimiento: 21/12/1993</li>
-                    <li>Estado civil: Soltero</li>
-                    <li>Nacionalidad: Chilena</li>
-                    <li>Dirección: Suecia</li>
-                    <li>Contacto: +56942860637</li>
-                    <li>Correo Electrónico: jdonosop@fen.uchile.cl</li>
-                </ol></p>
-            <h3>Formación</h3>
-                <p>Comencé a estudiar en colegio The Angels School desde 1998 hasta 2011, forjando una sólida base académica. Posteriormente, en 2013, ingresé a la Universidad de Chile para cursar la carrera de Contador Auditor, programa que culminé exitosamente en 2019</p>
-                <p>Durante los veranos de 2016 y 2018, adquirí experiencia en las prácticas profesionales en Moneda Asset Management, donde pude aplicar y enriquecer mis conocimientos en contabilidad y tributaria. Desde 2017 hasta la fecha, he ejercido como contador para pequeñas y medianas empresas (PYMES) y fundaciones, especializándome en la constitución e inicio de operaciones empresariales, asesoría contable y desarrollo de procedimientos para la toma de decisiones estratégicas. Mis responsabilidades han incluido la gestión integral de servicios contables, como la elaboración del libro Diario, Libro Mayor, Balance de 8 Columnas y la preparación de Estados Financieros. Poseo experiencia en el análisis de compras, ventas e inventarios, gestión de honorarios, remuneraciones, elaboración de Estado de Flujo de Efectivo y la presentación de Declaraciones Juradas y otras declaraciones (F29, F22 y rectificaciones). Además, he realizado pagos a proveedores, demostrando una capacidad significativa en la gestión financiera y administrativa. En 2021, comencé a trabajar en Constructora P&R, donde continúo aplicando y expandiendo mis habilidades duras y blandas</p>
-            <h3>Habilidades Duras y Blandas</h3>
-            <!-- Listas -->
-            <p><ul>
-                <li>Excel Nivel Medio</li>
-                <li>FIN 700</li>
-                <li>SAP Básico</li>
-                <li>Trabajo en Equipo</li>
-                <li>Procesos contable</li>
-                <li>Resolución de Problemas</li>
-                <li>Liderazgo</li>
-                <li>Productividad</li>
-                <li>Creatividad</li>
-                <li>Analítico</li>
-                <li>Integridad</li>
-                <li>Respeto</li>
-                <li>Perseverancia</li>
-                <li>Sinceridad</li>
-                <li>Disciplina</li>
-            </ul></p>
-        <!-- Enlace portfolio de proyectos -->
-    <p>Fuente: <a href="portafolio.html">Jose Donoso</a></p>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid bg-dark">
+            <img src="assets/img/logo_cv.png" alt="Logo CV Jose Donoso" class="img-fluid">
+            <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active text-white border border-dark p-3 bg-primary px-4" aria-current="page" href="#inicio">Inicio</a>
+              <a class="nav-link border text-white border-dark p-3 bg-primary px-4" href="#formacion">Formación</a>
+              <a class="nav-link text-white border border-dark p-3 bg-primary px-4" href="#proyectos">Proyectos</a>
+              <a class="nav-link text-white border border-dark p-3 bg-primary px-4" href="#contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid bg-dark" id="inicio">
+      <div class="row">
+        <aside class="col-sm-2 col-lg-2 text-white border border-2 border-light">
+          <h2 class="border-bottom border-2 border-light">Información de contacto</h2>
+          <h5>Email</h5>
+          <p>jcontadoresdp@gmail.com</p>
+          <h5>Celular</h5>
+          <p>+56942860637</p>
+          <h5>Fecha de Nacimiento</h5>
+          <p >21/12/1993</p>
+          <h5 class="border-top border-bottom border-2 border-light">Habilidades Técnicas y Habilidades Blandas</h5>
+          <ul>
+            <li>Excel Medio</li>
+            <li>FIN 700</li>
+            <li>SAP básico</li>
+            <li>Trabajo en Equipo</li>
+            <li>Procesos Contables</li>
+            <li>Resolución de problemas</li>
+            <li>Liderazgo</li>
+            <li>Creatividad</li>
+            <li>Analítico</li>
+            <li>Integridad</li>
+            <li>Respeto</li>
+            <li>Perseverancia</li>
+            <li>Sinceridad</li>
+            <li>Disciplina</li>
+          </ul>
+          <h5 class="border-top border-bottom border-2 border-light">Idiomas</h5>
+          <ul>
+            <li>Inglés Intermedio</li>
+            <li>Lengua de señas básico</li>
+          </ul>
+        </aside>
+
+        <section class="container-fluid col-sm-10 col-lg-10">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-12">
+              <img src="assets/img/foto_perfil_cv.jpg" alt="Foto perfil Curriculum Vitae" class="img-fluid rounded-circle mx-auto">
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-12">
+              <article>
+                <h1 class="fw-bold pt-3">José Donoso</h1>
+                <p>
+                  <br>
+                  Como <span class="highlight">Contador Auditor con seis años de experiencia en contabilidad y asuntos tributarios</span>, me he distinguido por mi <span class="highlight">destrezas avanzadas</span> en estas materias. Mi enfoque para el trabajo se caracteriza por una <span class="highlight">colaboración efectiva</span>, <span class="highlight">liderazgo probado</span>, creatividad y una <span class="highlight">sólida capacidad analítica</span>, todo lo cual me dirige hacia la <span class="highlight">resolución de problemas</span> y el <span class="highlight">fortalecimiento del espíritu de equipo</span>. Mis principios de respeto, perseverancia, sinceridad y disciplina son el motor que me impulsa a buscar incansablemente el progreso y el éxito, tanto en el ámbito profesional como en el personal.
+                  <br><br>
+                  En un momento de cambio respecto a la forma de aportar valor, he iniciado estudios en <span class="highlight">Desafío Latam</span>, lo que refleja mi <span class="highlight">compromiso con el aprendizaje continuo</span> y la adaptación a nuevas dinámicas y tecnologías en el campo financiero. Estoy en la búsqueda de unirse a una organización que <span class="highlight">no solo valore la experiencia y habilidades técnicas</span>, sino que también fomente un entorno donde la <span class="highlight">excelencia no sea solo un objetivo</span>, sino una práctica cotidiana. Estoy convencido de que mi bagaje profesional, combinado con mi reciente enriquecimiento académico, me permitirá <span class="highlight">contribuir de manera significativa</span> a cualquier equipo, impulsando la innovación y la eficiencia.
+                </p>
+              </article>
+            </div>
+          </div>
+          <article class="mt-4 p-2 rounded text-center" id="formacion">
+            <div class="card-group">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <h2>Formación</h2>
+          </article>
+          <article class="mt-4 p-2 rounded text-center" id="proyectos">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2>Proyectos Desafío Latam</h2>
+          </article>
+          <article class="mt-4 p-2 rounded text-center" id="contacto">
+            <h2>Contacto</h2>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+      <p>© 2024 José Ignacio Donoso Puebla - Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>
