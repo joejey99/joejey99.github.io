@@ -1,77 +1,85 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    font-family: "Roboto", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
 }
 
 aside {
-    background-color: rgba(73, 73, 255, 0.682);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.742)), url("../img/2foto_aside_bg.jpg");
-    background-size: cover;
-    background-position: left;
-    position: relative;
+  background-color: rgba(73, 73, 255, 0.682);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.742)
+    ),
+    url("../img/2foto_aside_bg.jpg");
+  background-size: cover;
+  background-position: left;
+  position: relative;
 }
 
 aside h5 {
-    font-weight: bolder;
-    text-align: center;
+  font-weight: bolder;
+  text-align: center;
 }
 
 main {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.453), rgba(255, 255, 255, 0.587)), url("../img/3bg-hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.453),
+      rgba(255, 255, 255, 0.587)
+    ),
+    url("../img/3bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 }
 
 main h1 {
-    background-color: rgba(253, 253, 253, 0.214);
-    display: flex;
-    justify-content: center;
+  background-color: rgba(253, 253, 253, 0.214);
+  display: flex;
+  justify-content: center;
 }
 
 main article {
-    background-color: rgba(216, 215, 215, 0.698);
-    border: black solid 2px;
+  background-color: rgba(216, 215, 215, 0.698);
+  border: black solid 2px;
 }
 
 .summary_cv img {
-    width: 12%;
-    float: left;
+  width: 12%;
+  float: left;
 }
 
-.summary_cv p{
-    text-align: justify;
+.summary_cv p {
+  text-align: justify;
 }
 
 .highlight {
-    color: #0056b3;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-  }
+  color: #0056b3;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
 
-  .highlight:hover {
-    color: #ffffff;
-    background-color: #0056b3;
-    cursor: pointer;
-  }
+.highlight:hover {
+  color: #ffffff;
+  background-color: #0056b3;
+  cursor: pointer;
+}
 
 article h2 {
-    color: #0056b3;
-    font-weight: bold;
+  color: #0056b3;
+  font-weight: bold;
 }
 
 article p {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-.card h5{
-    color: #0056b3;
-    font-weight: bold;
+.card h5 {
+  color: #0056b3;
+  font-weight: bold;
 }
 
 .card img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    }
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
