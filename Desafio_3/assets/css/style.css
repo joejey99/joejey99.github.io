@@ -1,0 +1,90 @@
+
+body {
+    color: white;
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    max-width: 1280px;
+    font-family: 'Raleway', sans-serif;
+}
+
+header h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 45px;
+    width: 1280px;
+    height: 59px;
+    line-height: 59px;
+    margin: 7px 0px 7px 0px;
+}
+
+article {
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+    display: flex;
+    gap: 15px;
+}
+
+article p{
+    max-width: 475px;
+    height: 130px;
+    margin: 76px 53px 75px 150px;
+}
+
+article img{ 
+    width: 399px;
+    height: 237px;
+    margin-top: 2em;
+}
+
+.features h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 65px;
+    padding-bottom: 25px;
+}
+
+.features {
+    width: 1280px;
+    height: 333px;
+    background-color: #1E1A13;
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-weight: lighter;
+    margin: 0px 275px 0px 326px;
+}
+
+.iconos{
+    font-size: 56px;
+}
+
+.gallery {
+    width: 1280px;
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    height: 202px;
+    width: 316px;
+    margin: 46px 6px;
+}
+
+.web_site {
+    height: 54px;
+    background-color: #1E1A13;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 35px;
+    font-size: 20px;
+}
