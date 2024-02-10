@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main h5 {
+  font-weight: 300;
+}
+
+.card p {
+  font-weight: 300;
+  color: #707070;
+}
+
+.card span {
+  font-weight: 300;
+  color: #707070;
+}
+
+.card-footer h5 {
+  font-weight: 500;
+}
+
+.overview h5 {
+  font-weight: 500;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+}
+
+footer img {
+  height: 30px;
+}
