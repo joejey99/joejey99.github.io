@@ -14,6 +14,7 @@ aside {
   background-size: cover;
   background-position: left;
   position: relative;
+  word-wrap: break-word;
 }
 
 aside h5 {
